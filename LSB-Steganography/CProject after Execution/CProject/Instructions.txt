@@ -1,0 +1,8 @@
+For encoding we write the statement:
+gcc test.c
+./a.out -E -i <input.bmp> -s <secret.txt> -o <output.bmp>
+
+For decoding we write the statement :
+ ./a.out -D -i <output.bmp> -o <output_text.txt> 
+
+Magic String : #*
